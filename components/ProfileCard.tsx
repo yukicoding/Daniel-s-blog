@@ -61,19 +61,17 @@ export function ProfileCard() {
           'outline outline-1 outline-gray-100 dark:outline-gray-600'
         )}
       >
-        <Image
-          src={'/static/images/logo.jpg'}
-          alt={t('avatar_description')}
-          width={550}
-          height={350}
-          style={{
-            objectPosition: '50% 16%',
-            objectFit: 'cover',
-            width: '100%',
-            aspectRatio: '17/11',
-          }}
-          priority
-        />
+        <div className="relative w-full" style={{ aspectRatio: '17/11' }}>
+          <Image
+            src={'/static/images/logo.jpg'}
+            alt={t('avatar_description')}
+            fill
+            style={{
+              objectFit: 'cover',
+            }}
+            priority
+          />
+        </div>
         <SpotifyNowPlaying />
         <ProfileCardInfo />
         <span className="h-1.5 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>

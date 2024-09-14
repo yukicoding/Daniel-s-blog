@@ -21,10 +21,11 @@ export function Header({ navShow, onToggleNav }: { onToggleNav: () => void; navS
             <div className="mr-3 flex items-center justify-center">
               <NextImage
                 src="/static/images/logo.jpg"
-                alt="Leo's Blog logo"
+                alt="Daniel's Blog logo"
                 width={45}
                 height={45}
                 className="rounded-full"
+                style={{ objectFit: 'cover', aspectRatio: '1 / 1' }}
               />
             </div>
           </div>

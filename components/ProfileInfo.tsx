@@ -16,15 +16,6 @@ export function ProfileCardInfo() {
           <Backpack strokeWidth={1} size={20} />
           <p className="flex items-center px-2 space-x-1">
             <span>{t('job_position')}</span>
-            <span>@</span>
-            <a
-              target="_blank"
-              href="https://weaverse.io"
-              rel="noreferrer"
-              className="hover:underline"
-            >
-              Weaverse
-            </a>
           </p>
         </div>
         <div className="flex items-center text-gray-700 dark:text-gray-200">
@@ -32,7 +23,7 @@ export function ProfileCardInfo() {
           <p className="px-2">
             {t('location_position')}
             <span className="absolute ml-1 inline-flex pt-px">
-              <Twemoji emoji="flag-vietnam" />
+              <Twemoji emoji="flag-china" />
             </span>
           </p>
         </div>

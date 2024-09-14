@@ -55,13 +55,6 @@ export function TypedBios() {
         <li>
           {tr.t('bio_13')} <Twemoji emoji="musical-keyboard" /> & <Twemoji emoji="guitar" />
         </li>
-        <li>{tr.t('bio_14')}</li>
-        <li>
-          {tr.t('bio_15')} <Twemoji emoji="chess-pawn" />
-        </li>
-        <li>
-          {tr.t('bio_16')} <Twemoji emoji="video-game" />.
-        </li>
       </ul>
       <span ref={el} className="text-neutral-900 dark:text-neutral-200" />
     </div>

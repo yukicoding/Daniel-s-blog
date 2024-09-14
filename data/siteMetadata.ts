@@ -1,15 +1,15 @@
 export let siteMetadata = {
   siteUrl: 'https://www.leohuynh.dev',
-  siteRepo: 'https://github.com/hta218/leohuynh.dev',
+  siteRepo: 'https://github.com/yukicoding/leohuynh.dev',
   siteLogo: '/static/images/logo.jpg',
   image: '/static/images/logo.jpg',
   socialBanner: '/static/images/logo.jpg',
   email: 'yukicoding@outlook.com',
-  github: 'https://github.com/hta218',
+  github: 'https://github.com/yukicoding',
   x: 'https://x.com/hta218_',
-  facebook: 'https://facebook.com/hta218',
+  facebook: 'https://facebook.com/yukicoding',
   youtube: 'https://www.youtube.com/@hta218_',
-  linkedin: 'https://www.linkedin.com/in/hta218/',
+  linkedin: 'https://www.linkedin.com/in/yukicoding/',
   locale: 'en-US',
   analyticsURL: 'https://analytics.leohuynh.dev/share/jkwRskv0/leohuynh.dev',
   analytics: {
@@ -19,8 +19,8 @@ export let siteMetadata = {
     googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
   },
   socialAccounts: {
-    github: 'hta218',
-    linkedin: 'hta218',
+    github: 'yukicoding',
+    linkedin: 'yukicoding',
     x: 'hta218_',
   },
 }
