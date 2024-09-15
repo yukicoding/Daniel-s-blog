@@ -38,7 +38,6 @@ export function BlogLinks() {
           {t('menu_resume_2')}
         </span>
       </Link>
-    
     </div>
   )
 }

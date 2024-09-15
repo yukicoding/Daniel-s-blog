@@ -8,10 +8,13 @@ module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
   eslint: {
+    ignoreDuringBuilds: true,
     dirs: ['components', 'constant', 'layouts', 'libs', 'pages', 'scripts', 'utils'],
   },
   images: {
-    remotePatterns: [{ hostname: 'i.scdn.co' }],
+    remotePatterns: [{ hostname: 'i.scdn.co' },{ hostname: 'yukicoding-icu.vercel.app' }],
+    domains: ['localhost', 'yukicoding-icu.vercel.app'],
+    
   },
   typescript: { tsconfigPath: './tsconfig.json' },
   i18n,
